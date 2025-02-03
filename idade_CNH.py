@@ -1,4 +1,5 @@
-from datetime import datetime
+# Verificação de idade para tirar CNH 
+from datetime import datetime # Importa a biblioteca para trabalhar com datas
 
 def pode_tirar_cnh(data_nascimento):
     """
