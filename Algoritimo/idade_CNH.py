@@ -1,7 +1,6 @@
 # Verificação de idade para tirar CNH
-
-from datetime import datetime # Importa a biblioteca para trabalhar com datas
-
+# Importa a biblioteca para trabalhar com datas
+from datetime import datetime 
 def pode_tirar_cnh(data_nascimento):
     """
     Função que verifica se a pessoa pode tirar a CNH com base na data de nascimento.
