@@ -19,4 +19,5 @@ if 1 <= numero <= len(alunos):
 else:
     # 6. Caso o número informado seja inválido, exibe uma mensagem de erro.
     print(f"Número inválido! Por favor, digite um número entre 1 e {len(alunos)}.")
+    # ers
     
