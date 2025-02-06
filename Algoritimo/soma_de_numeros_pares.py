@@ -4,7 +4,6 @@
 # se for par, somar.
 # mostrar os numeros pares e o resultado da soma.
 
-
 def somar_numeros_pares():
    # Solicita entrada do usuário e cria lista de números
    numeros = input("Digite vários números separados por espaço: ")
