@@ -15,7 +15,7 @@ def somar_numeros_pares():
    
    # Verifica cada número
    for numero in lista_numeros:
-       if numero % 2 == 0:  # Se for par
+       if numero % 2 == 0:  # Se for par, soma
            soma += numero
            numeros_pares.append(numero)
    
@@ -23,7 +23,7 @@ def somar_numeros_pares():
    print(f"\nNúmeros pares encontrados: {numeros_pares}")
    print(f"Soma dos números pares: {soma}")
 
-# Executa o programa
+# Execução
 try:
    somar_numeros_pares()
 except ValueError:
