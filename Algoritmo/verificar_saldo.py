@@ -1,7 +1,7 @@
 # criar um algoritimo que verifique se o saldo de uma conta da para comprar um produto
 #receber o valor do produto e o saldo da conta.
-# se o saldo for maior ou igual ao valor do produto, mostrar uma mensagem de compra realizada.
-# se o saldo for menor que o valor do produto, mostrar uma mensagem de saldo insuficiente.  
+# se o saldo for maior ou igual ao valor do produto, mostrar uma mensagem de compra realizada e saldo atual.
+# se o saldo for menor que o valor do produto, mostrar uma mensagem de saldo insuficiente saldo atual.  
 
 # Solicita ao usuário o valor do produto
 produto = float(input("Digite o valor do produto: "))
