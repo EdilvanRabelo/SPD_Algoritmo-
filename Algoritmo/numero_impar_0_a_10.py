@@ -1,4 +1,4 @@
-# Imprime os números ímpares de 0 a 10
+# Criar um metido que mostre os numeros números ímpares de 0 a 10.
 
 # Percorre os números de 0 a 10
 for num in range(11):  

@@ -1,8 +1,8 @@
 # Implemente um sistema de verificação se a data é feriado.
-# verificar na lista quais datas fazem parte do feriado nacional.  
-# receber uma data 
-# se a data for feriado, mostrar uma mensagem informando o dia e o mes feriado.
-# se a data for normal, mostrar uma mensagem informando que não é feriado.
+# Verificar na lista quais datas fazem parte do feriado nacional.  
+# Receber uma data.
+# Se a data for feriado, mostrar uma mensagem informando o dia e o mês feriado.
+# Se a data for normal, mostrar uma mensagem informando que não é feriado.
 
 # Dicionário de feriados nacionais
 feriados = {
@@ -24,4 +24,3 @@ if data in feriados:
     print(f"A data {data} é feriado: {feriados[data]}")
 else:
     print(f"A data {data} é normal.")       
-                                                                 

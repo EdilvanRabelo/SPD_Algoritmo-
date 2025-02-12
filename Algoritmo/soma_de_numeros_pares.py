@@ -1,8 +1,8 @@
-# criar metodo para somar numeros pares.
-# receber uma lista de numeros.
-# verificar se o numero e par ou impar.
-# se for par, somar.
-# mostrar os numeros pares e o resultado da soma.
+# Criar metodo para somar numeros pares.
+# Receber uma lista de numeros.
+# Verificar se o numero e par ou impar.
+# Se for par, somar.
+# Mostrar os numeros pares e o resultado da soma.
 
 def somar_numeros_pares():
    # Solicita entrada do usuário e cria lista de números
