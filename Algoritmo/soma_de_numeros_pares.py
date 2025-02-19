@@ -1,7 +1,7 @@
 # Criar metodo para somar numeros pares.
 # Receber uma lista de numeros.
 # Verificar se o numero e par ou impar.
-# Se for par, somar ######
+# Se for par, somar
 # Mostrar os numeros pares e o resultado da soma.
 
 def somar_numeros_pares():
