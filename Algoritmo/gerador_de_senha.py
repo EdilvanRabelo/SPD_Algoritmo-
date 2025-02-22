@@ -1,6 +1,6 @@
-# Criar um metodo gerar senha para usar o banheiro coletivo.
-# Solicitar o usuario identificaçao do sexo (M ou F).
-# Gerar uma senha de 4 digitos de acordo com o sexo.
+# Criar um método gerar senha para usar o banheiro coletivo.
+# Solicitar o usuário identificação do sexo (M ou F).
+# Gerar uma senha de 4 dígitos de acordo com o sexo.
 # Mostrar a senha gerada.
 # Se o sexo for masculino, a senha deve ser iniciada com M. 
 # Se o sexo for feminino, a senha deve ser iniciada com F.
@@ -9,7 +9,7 @@
 # Importa a biblioteca para trabalhar com datas.
 from datetime import datetime
 
-# Solicita ao usuário o sexo do usuario
+# Solicita ao usuário o sexo do usuário
 sexo = input("Digite seu sexo (M ou F): ")
 
 # Verifica se o sexo é masculino ou feminino

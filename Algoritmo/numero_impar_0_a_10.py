@@ -1,5 +1,5 @@
-# Criar um metodo que mostre se o numero é impar de 0 a 10.
-# Solicitar ao usuario um numero de 0 a 10.
+# Criar um método que mostre se o numero é impar de 0 a 10.
+# Solicitar ao usuário um numero de 0 a 10.
 # Verificar se o numero é impar.   
 # Se for, mostrar uma mensagem dizendo que o numero é impar. 
 # Se nao for, mostrar uma mensagem dizendo que o numero nao é impar. 

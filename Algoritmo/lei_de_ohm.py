@@ -1,7 +1,7 @@
-# Criar um metodo para calcular a lei de ohm, com qualquer uma das 3 opcoes.
-# Solicitar para informar os valores que ele tem  tensão(V), ressistencia(R) ou corrente(I).
+# Criar um método para calcular a lei de ohm, com qualquer uma das 3 opções.
+# Solicitar para informar os valores que ele tem  tensão(V), resistência(R) ou corrente(I).
 # De acordo com quais os valores foram informados, Calcular a lei de ohm.
-# Mostrar o resultado. e sua grandeza eletrica.
+# Mostrar o resultado. e sua grandeza elétrica.
 
 def calcular_lei_de_ohm():
     while True:

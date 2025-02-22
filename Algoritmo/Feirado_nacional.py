@@ -16,7 +16,7 @@ feriados = {
     "25/12": "Natal"
 }
 
-# solicita a data ao usuario    
+# solicita a data ao usuário    
 data = input("Digite uma data no formato DD/MM: ")
 
 # Verifica se a data é feriado

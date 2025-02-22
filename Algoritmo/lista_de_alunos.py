@@ -1,9 +1,9 @@
-# Criar um metodo que identifique o aluno de acordo com o número da lista.
+# Criar um método que identifique o aluno de acordo com o número da lista.
 # Receber uma lista de alunos e números.
 # Solicitar um numero correspondente ao aluno.
 # Verificar se o numero informado é valido.
 # Se for, mostrar o aluno correspondente.
-# Se nao for, mostrar uma mensagem dizendo que o numero informado nao eh valido e solicitar novamento o numero do aluno.
+# Se nao for, mostrar uma mensagem dizendo que o numero informado nao eh valido e solicitar novamente o numero do aluno.
 
 # Criando uma lista de alunos com alguns nomes pré-definidos.
 alunos = ["Alice", "Bruno", "Carlos", "Daniela", "Eduardo"]

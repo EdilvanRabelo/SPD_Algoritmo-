@@ -1,7 +1,7 @@
-# Criar um metodo para converter moedas.
+# Criar um método para converter moedas.
 # Solicitar ao usuário o valor em real.
-# Calcular o valor em dolar.
-# Mostrar o valor em dolar .                      
+# Calcular o valor em dólar.
+# Mostrar o valor em dólar .                      
 def converter_moeda():
     # Solicitar ao usuário o valor em real
     valor_real = float(input("Digite o valor em real: "))

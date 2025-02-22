@@ -1,4 +1,4 @@
-# Criar metodo para somar numeros pares.
+# Criar método para somar numeros pares.
 # Receber uma lista de numeros.
 # Verificar se o numero e par ou impar.
 # Se for par, somar
@@ -15,9 +15,9 @@ def somar_numeros_pares():
    
    # Verifica cada número
    for numero in lista_numeros:
-       if numero % 2 == 0:  # Se for par, soma
-           soma += numero
-           numeros_pares.append(numero)
+      if numero % 2 == 0:  # Se for par, soma
+         soma += numero
+         numeros_pares.append(numero)
    
    # Mostra resultados
    print(f"\nNúmeros pares encontrados: {numeros_pares}")

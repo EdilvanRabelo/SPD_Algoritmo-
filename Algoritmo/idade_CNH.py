@@ -1,6 +1,6 @@
-# Crair um metodo para verificar se ja tenho idade para tirar CNH.
+# Criar um método para verificar se ja tenho idade para tirar CNH.
 # Informar a data de nascimento.
-# Verfificar se a pessoa é maior de 18 anos.
+# Verificar se a pessoa é maior de 18 anos.
 # Se for, mostrar uma mensagem dizendo que ela pode tirar a CNH.    
 # Se não for, mostrar uma mensagem dizendo que ainda falta x anos para tirar a CNH.
 

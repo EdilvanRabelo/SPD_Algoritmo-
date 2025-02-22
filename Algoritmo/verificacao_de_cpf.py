@@ -1,9 +1,9 @@
-# Criar um metodo que verifique se o cpf eh valido.
-# Solicitar ao usuario o cpf.
-# O cpf deve ter 11 digitos, somente numeros, sem pontos ou tracos.
+# Criar um método que verifique se o cpf eh valido.
+# Solicitar ao usuário o cpf.
+# O cpf deve ter 11 dígitos, somente numeros, sem pontos ou tracos.
 # Verificar se o cpf eh valido.
 # Se for, mostrar uma mensagem dizendo que o cpf eh valido e solicitar um novo cpf.
-# Se nao for, mostrar uma mensagem dizendo que o cpf eh invalido e mostar o cpf com ponte e traço.
+# Se nao for, mostrar uma mensagem dizendo que o cpf eh invalido e mostra o cpf com ponte e traço.
 
 def verificar_cpf(cpf):
     # Verificar se o CPF tem 11 dígitos

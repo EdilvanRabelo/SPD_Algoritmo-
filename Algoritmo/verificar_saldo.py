@@ -1,4 +1,4 @@
-# Criar um algoritimo que verifique se o saldo de uma conta da para comprar um produto.
+# Criar um algorítimo que verifique se o saldo de uma conta da para comprar um produto.
 # Receber o valor do produto e o saldo da conta.
 # Se o saldo for maior ou igual ao valor do produto, mostrar uma mensagem de compra realizada e saldo atual.
 # sS o saldo for menor que o valor do produto, mostrar uma mensagem de saldo insuficiente saldo atual.  
