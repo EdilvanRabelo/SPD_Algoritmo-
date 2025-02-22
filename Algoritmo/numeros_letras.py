@@ -1,9 +1,9 @@
-# Criar um metodo para criptografar palavras em numeros e vice-versa.
+# Criar um método para criptografar palavras em números e vice-versa.
 # Cada letra tem um numero correspondente.
-# Criar uma lista de letras e numeros.
-# Solicitar ao usuario uma palavra ou numeros o usuario decide.
-# Se for numeros, converter para letras.
-# Se for letras, converter para numeros.
+# Criar uma lista de letras e números.
+# Solicitar ao usuário uma palavra ou números o usuário decide.
+# Se for números, converter para letras.
+# Se for letras, converter para números.
 # Mostrar o resultado.
 def numeros_letras():
     letras_numeros = {
