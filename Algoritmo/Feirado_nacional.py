@@ -16,11 +16,33 @@ feriados = {
     "25/12": "Natal"
 }
 
-# solicita a data ao usuário    
-data = input("Digite uma data no formato DD/MM: ")
+while True:
+    # solicita a data ao usuário    
+    data = input("Digite uma data no formato DD/MM: ")
 
-# Verifica se a data é feriado
-if data in feriados:
-    print(f"A data {data} é feriado: {feriados[data]}")
-else:
-    print(f"A data {data} é normal.")       
+    # Verifica se a data está no formato correto
+    if len(data) != 5 or data[2] != "/":
+        print("Formato inválido. Por favor, use o formato DD/MM.")
+        continue
+
+    # Verifica se os valores são números
+    dia, mes = data.split("/")
+    if not dia.isdigit() or not mes.isdigit():
+        print("Valores inválidos. Por favor, use números para o dia e mês.")
+        continue
+
+    # Verifica se a data é válida
+    if int(dia) < 1 or int(dia) > 31 or int(mes) < 1 or int(mes) > 12:
+        print("Data inválida. Por favor, use uma data válida.")
+        continue
+
+    # Verifica se a data é feriado
+    if data in feriados:
+        print(f"A data {data} é feriado: {feriados[data]}")
+    else:
+        print(f"A data {data} é normal.")
+
+    # Pergunta ao usuário se deseja continuar
+    resposta = input("Deseja continuar? (s/n): ")
+    if resposta.lower() != "s":
+        break
