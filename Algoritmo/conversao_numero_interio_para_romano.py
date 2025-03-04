@@ -1,6 +1,6 @@
 # Problema: Conversão de números inteiros para Romanos.
 # Você precisa implementar uma função que converta um número inteiro em seu equivalente Romano.
-# Receber um número inteiro.. 
+# Receber um número inteiro. 
 # O número deve estar entre 1 e 3999.
 # Retornar o número romano correspondente.
 
