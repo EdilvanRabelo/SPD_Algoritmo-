@@ -32,27 +32,25 @@ def int_to_roman(num):
             roman_num += syms[i]
             # Subtrai o valor arábico do número original
             num -= val[i]
-
-        # Incrementa o índice para passar para o próximo valor e símbolo
         i += 1
 
-    # Retorna o número romano construído
     return roman_num
 
 # Solicita que o usuário digite um número
-try:
-    # Usa a função input() para receber a entrada do usuário
-    # int() converte a entrada para um número inteiro
-    numero = int(input("Digite um número entre 1 e 3999: "))
+while True:
+    try:
+        # Usa a função input() para receber a entrada do usuário
+        # int() converte a entrada para um número inteiro
+        numero = int(input("Digite um número entre 1 e 3999: "))
 
-    # Verifica se o número está dentro do intervalo válido (1 a 3999)
-    if 1 <= numero <= 3999:
-        # Se estiver dentro do intervalo, chama a função int_to_roman para converter o número e exibe o resultado.
-        print(f"O número {numero} em algarismos romanos é: {int_to_roman(numero)}")
-    else:
-        # Se o número estiver fora do intervalo, exibe uma mensagem de erro.
-        print("Por favor, digite um número entre 1 e 3999.")
-except ValueError:
-    # Captura erros caso o usuário digite algo que não seja um número inteiro.
-    # Por exemplo, se o usuário digitar "abc" ou "12.5"
-    print("Entrada inválida. Por favor, digite um número inteiro.")
+        # Verifica se o número está dentro do intervalo válido (1 a 3999)
+        if 1 <= numero <= 3999:
+            # Se estiver dentro do intervalo, chama a função int_to_roman para converter o número e exibe o resultado.
+            print(f"O número {numero} em algarismos romanos é: {int_to_roman(numero)}")
+            break
+        else:
+            print("Por favor, digite um número entre 1 e 3999.")
+    except ValueError:
+        # Captura erros caso o usuário digite algo que não seja um número inteiro.
+        # Por exemplo, se o usuário digitar "abc" ou "12.5"
+        print("Entrada inválida. Por favor, digite um número inteiro.")
