@@ -4,7 +4,7 @@
 # Se a data for feriado, mostrar uma mensagem informando o dia e o mês feriado.
 # Se a data for normal, mostrar uma mensagem informando que não é feriado.
 
-# Dicionário de feriados nacionais
+# Dicionário de feriados nacionais.
 feriados = {
     "01/01": "Ano Novo",
     "21/04": "Tiradentes",
